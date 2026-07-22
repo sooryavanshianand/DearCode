@@ -22,7 +22,9 @@ function App() {
 
  async function reviewCode() {
   try {
-   const response = await axios.post("/ai/get-review", { code });
+  const response = await axios.post(`${API_URL}/ai/get-review`, {
+  code,
+});
 
  
 
