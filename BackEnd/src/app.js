@@ -3,9 +3,7 @@ const aiRoutes = require('./routes/ai.routes')
 const cors = require('cors')
 
 const app = express()
-const express = require('express');
-const aiRoutes = require('./routes/ai.routes')
-const cors = require('cors')
+
 app.use(cors({
   origin: [
     "http://localhost:5173",
@@ -14,7 +12,7 @@ app.use(cors({
   methods: ["GET", "POST"],
   credentials: true
 }));
-const app = express()
+ 
 
  
 
